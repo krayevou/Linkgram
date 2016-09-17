@@ -1,0 +1,146 @@
+/* Main page*/
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    margin: 0 auto;
+    font-family: cursive;   
+}
+header{
+    width:100%;
+}
+.nav_bord_1_parent{
+    width : 100%;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row nowrap;
+    height: 7%;
+    background-color: white;
+    position:fixed;
+    font-size: 150%;
+    border-bottom: 1px solid #dad5d6;
+}
+.nav_bord_1_parent img{
+    height:100%;
+}
+.nav_bord_1_child{
+    flex: 1 1 25%;
+    margin:auto;
+    text-align: center;
+}
+.nav_bord_1_child1{
+    flex: 1 1 50%;
+    margin:auto;
+    text-align: center;
+}
+.nav_bord_2_parent{
+    width : 100%;
+    top: 7%;
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row nowrap;
+    height: 5%;
+    border-bottom: 1px solid #dad5d6;
+    font-family:cursive;
+}
+.nav_bord_2_child{
+    flex: 1 1 25%;
+    margin:auto;
+    text-align: center;
+}
+.content_main_0{
+    text-align: center;
+    font-family: cursive;
+    background-color: white; 
+    border-bottom: 1px solid #dad5d6;
+    top: 8%;
+    position: relative;
+}
+.content_main_1{
+   background-color: white; 
+   border-bottom: 1px solid #dad5d6;
+   top: 2%;
+    position: relative;
+}
+.content_bord_1_parent{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    flex-flow: row nowrap;
+    width: 100%;
+    height : auto;
+    margin-top: 2%;
+}
+.content_bord_1_child{
+    flex: 1 1 20%;  
+    text-align: center;
+}
+.content_image{
+    width : 90%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;    
+    margin-top: 3%;
+}
+.between_content_page{
+    top: 2%;
+    position: relative;
+    bottom: 2%;
+    width: 100%;
+}
+.between_content_page img {
+    margin-top: 2%;
+    height: 50%;
+    width: 100%;
+}
+.content_bord_2_parent{
+    position: relative;
+    top: 4%;
+    bottom: 4%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.footerok{
+    text-align: center;
+    font-family: cursive;
+    background-color: #dad5d6 ;
+    top : 3%;
+    position: relative;
+}
+/* Questionnaire*/
+.questionnaire_content_1{
+    text-align: center;
+    font-family: cursive;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 10%;
+}
+
+#questionnaire{
+    background-color: #f1f0f0;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    height: 50%;
+    position: relative;
+    top:17%;
+    width:auto;  
+}
+.button_one{
+    border-radius: 15%;
+}
+#log_id{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+}
+#radio_log{
+    text-align: left;
+    position: relative;
+}
+
